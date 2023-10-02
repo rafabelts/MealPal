@@ -17,7 +17,7 @@ export default function DayPlanScreen() {
     }, [day, state.meal_plan_data])
 
     return(
-        <div className="w-[55%] sm:w-[100%]">
+        <div className="w-[100%]">
             <h1 className="text-xl sm:text-4xl">We recommend you have the following meals:</h1>
             <div className="flex flex-col gap-10 mt-5">
                 {

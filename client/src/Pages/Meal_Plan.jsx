@@ -15,11 +15,13 @@ export default function MealPlanScreen() {
         Tuesday: "tuesday",
         Wednesday: "wednesday",
         Thursday: "thursday",
-        Friday: "friday", 
+        Friday: "friday",
+        Saturday: "saturday",
+        Sunday: "sunday",
     }
 
     return (
-        <div class="flex flex-col mt-28 mx-5 sm:mt-[-2%] sm:mx-[-2%] sm:w-screen sm:h-screen items-center justify-center">
+        <div class="flex flex-col mt-28 mx-5 sm:mt-[-2%] sm:mx-[-1%] sm:w-screen sm:h-screen items-center justify-center">
             <div className="flex flex-col justify-center sm:bg-container sm:px-8 sm:h-[450px] sm:rounded-[36px]">
                 <div className="flex flex-col">
                     <h1 className="text-3xl font-bold">
@@ -30,7 +32,7 @@ export default function MealPlanScreen() {
                             state.meal_plan_data.week ? Object.keys(weekdays).map((day) =>
                                 <NavLink
                                     to={`/meal-plan/${weekdays[day]}`}
-                                    className="bg-green-800 text-xl py-4 px-10 rounded-2xl hover:bg-green-600"
+                                    className="bg-green-800 text-xl py-4 px-6 rounded-2xl hover:bg-green-600"
                                 >
                                     {day}
                                 </NavLink>
