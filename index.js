@@ -8,7 +8,7 @@ const { CalculateTdee, Get_Protein_Carb_Fat_Ratio } = require('./Calculations');
 const app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:3000', // Only allow requests from this origin
+  origin: 'https://meal-pal-jhpq.vercel.app', // Only allow requests from this origin
   credentials:true, //access-control-allow-credentials:true
   optionSuccessStatus:200,
 };
