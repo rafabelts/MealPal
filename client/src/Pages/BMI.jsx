@@ -29,7 +29,7 @@ export default function BMIScreen() {
 
   const generate_meal_plan = async () => {
     try {
-      const response = await fetch("http://localhost:3001/submit/", {
+      const response = await fetch("https://meal-pal-sooty.vercel.app/submit", {
         mode: 'cors',
         method: 'POST',
         headers: {
