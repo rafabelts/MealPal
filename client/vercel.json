@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "https://meal-pal-sooty.vercel.app/submit/",
+      "source": "https://meal-pal-sooty.vercel.app/submit",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
